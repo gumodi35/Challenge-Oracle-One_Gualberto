@@ -122,4 +122,8 @@ Plantilla propuesta para la implementación de este desafío, recuerda que puede
 
 ![image](/assets/confirmacion.png)
 - Revisa tu correo electronico y obten tu Badge
-- Publica ub video y/o tu proyecto en LinkedIn
+![image](/assets/insignia.png)
+- Publica un video y/o tu proyecto en LinkedIn
+[Video LinkedIn](https://www.linkedin.com/posts/gualbertomondi_oracle-challengeonecodificador2-developer-activity-6929910375639355392-S1NK?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+![image](/assets/insignia2.png)
