@@ -1,7 +1,7 @@
 // creamos la funcion para encriptar
 function cifrar() {
     // declaramos las variables
-    var texto = document.getElementById("inputtexto").ariaValueMax.toLocaleLowerCase();
+    var texto = document.getElementById("inputtexto").value.toLowerCase();
     //i es para cambiar masyusculas y minisculas
     // g cambia toda la linea
     // m cambia multiples lineas
@@ -22,7 +22,7 @@ function cifrar() {
 // Agregamos la funcion descifrar
 function descifrar() {
     // declaramos nuetsras variables
-    var texto = document.getElementById("inputtexto").value.toLocaleLowerCase();
+    var texto = document.getElementById("inputtexto").value.toLowerCase();
     var textoCifrado = texto.replace(/enter/igm,"e");
     var textoCifrado = textoCifrado.replace(/ober/igm,"o");
     var textoCifrado = textoCifrado.replace(/imes/igm,"i");
@@ -37,3 +37,10 @@ function descifrar() {
     document.getElementById("copiar").style.display = "inherit";
 }
 
+// Agregando la funcion de copiar 
+function copiar(){
+    var contenido = document.querySelector("#texto2");
+    contenido.select();
+    document.execCommand('copy');
+    alert("Copied!")
+}
