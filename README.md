@@ -115,7 +115,7 @@ Plantilla propuesta para la implementación de este desafío, recuerda que puede
 ![image](/assets/github.png)]
 
 - Publica en Git Hub Pages
-  [Challenge1](https://github.com/gumodi35/Challenge-Oracle-One_Gualberto)
+  [Challenge1](https://gumodi35.github.io/Challenge-Oracle-One_Gualberto/)
 - Agrega el #challengeonecodificador2
 - Rellene el formulario de envio 
 ![image](/assets/formulario.png)
