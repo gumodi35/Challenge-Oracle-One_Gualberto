@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Challenge 1 - Encriptador</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <!-- container -->
+    <div class="container">
+        <!-- logo -->
+        <div class="logo">
+            <img class="logoImg" src="assets/logoAlura.png">
+            <h1 class="tittle">Cifrador de mensajes AluraONE</h1>
+        </div>
+        <!-- panel left -->
+        <div class="left">
+            <input class="text-input" type="text" name="input-texto" id="inputtexto"
+                placeholder="Ingrese el texto aqui">
+        </div>
+        <!-- panel right -->
+        <div class="right">
+            <img src="assets/Muñeco.png" id="imgDer">
+            <h1 id="texto">Ningún mensaje fue encontrado</h1>
+            <textarea id="texto2">Ingresa el texto que desees encriptar o desenciptar.</textarea>
+            <button type="button" id="copiar" onclick="copia()">¡Copiar!</button>
+        </div>
+        <!-- buttons -->
+        <div class="left-button">
+            <div class="texto">
+                <i class='bx bxs-error-circle'></i>
+                <p>Sólo letra minusculas y sin acento</p>
+            </div>
+            <div class="buttons">
+                <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptar()">desencriptar!</button>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer" id="contacto">
+            <div class="social-links">
+                <p>Relizado por Gualberto Montiel Diaz</p>
+                <a href="https://www.linkedin.com/in/gualbertomondi/"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.facebook.com/gualbert.monti/"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://twitter.com/SrGualbert"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/gualbertmonti/"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
