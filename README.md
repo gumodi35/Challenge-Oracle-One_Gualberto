@@ -1,34 +1,56 @@
- # ⭐️ Alura Challenge - Oracle ONE Encriptador de Texto 
+ # ⭐️ Alura Challenge - Oracle ONE  
 
-Bien explorer, vamos ahora a realizar un proyecto nuevo empezando desde los requerimientos:
+Bien, vamos a realizar un proyecto empezando desde los requerimientos:
 
-# Twitter
+# Encriptador de Texto
 
 ```markdown
 
-Después de evaluar tiempo y esfuerzos, el equipo de Launch X ha decidido crear la aplicación `Twitter`. Para ello han definido la primera etapa del sprint con los siguientes requerimientos a desarrollar:
+Durante estas cuatro semanas, vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
-SPRINT 1: Creación de un modelo
- 
- Requerimiento 1: Se necesita un modelo `User` para guardar la información de un usuario de nuestra app: `id`, `username`, `name`, `bio`, `dateCreated` y `lastUpdated`. 
-Solución: Crear una clase User y un constructor que guarde estos parámetros. 
- 
- Requerimiento 2: Las propiedades `dateCreated` y `lastUpdated` deberán ser datos de tipo fecha que guarden el momento en que se instancie un nuevo objeto de la clase `User`.
- Solución: Modifica el constructor de la clase creada y asigna un valor por defecto a estos atributos usando `new Date()`.
- 
- Requerimiento 3: Cada objeto tipo user necesita los siguietes gettes: `getUsername`, `getBio`, `getDateCreated`, `getLastUpdated`.
- Solución: Agrega los getters regresando la propiedad indicada, no olvides usar `this`.
- 
- Requerimiento 4: Cada objeto necesita los siguientes setters: `setUsername` y `setBio`, para actualizar dichas propiedades.
- Solución: Agrega los setters usando la palabra `set` y modificando el atributo indicado.
+Las "llaves" de encriptación que utilizaremos son las siguientes:
+
+`La letra "e" es convertida para "enter"`
+`La letra "i" es convertida para "imes"`
+`La letra "a" es convertida para "ai"`
+`La letra "o" es convertida para "ober"`
+`La letra "u" es convertida para "ufat"`
+
+**Requisitos:**
+- Debe funcionar solo con letras minúsculas
+- No deben ser utilizados letras con acentos ni caracteres especiales
+- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. 
+
+Por ejemplo:
+`"gato" => "gaitober"`
+`gaitober" => "gato"`
+
+- La página debe tener campos para 
+inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+- El resultado debe ser mostrado en la pantalla.
+
+**Extras:**
+- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `ctrl+C` o de la opción "copiar" del menú de las aplicaciones.
+
+Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello de la siguiente forma: 
+
+1. La columna **Listos para iniciar** presenta las tarjetas con elementos que aun no fueron desarrollados.
+2. En la columna **En Desarrollo** estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
+3. En la columna **Pausado** estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
+4. Por fin, en la columna **Concluido** estarán los elementos ya concluidos.
+
+El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
+
+ Buen proyecto!
+
 ```
 
 # Solución paso a paso
 
 ## Creación del proyecto
 
-1. Crea un folder llamado `twitter`.
-![folder](/assets/folder.gif)
+1. Crea un folder llamado `challenge1`.
+![folder](/assets/carpeta.png)
 2. Dentro de él ejecuta `npm init`.
 ![npminit](/assets/npminit.gif)
 3. Agrega jest como dependencia.
